@@ -18,7 +18,7 @@ router.get("/", async (req, res) => {
 // get product tag by id
 router.get("/:id", async (req, res) => {
   try {
-    const tagsData = await Category.findByPk(req.params.id, {
+    const tagsData = await Tag.findByPk(req.params.id, {
       include: [{ model: Product, ProductTag }],
     });
     if (!tagsData) {
@@ -34,7 +34,7 @@ router.get("/:id", async (req, res) => {
 // creat new product tag
 router.post("/", async (req, res) => {
   try {
-    const tagsData = await Category.create(req.body);
+    const tagsData = await Tag.create(req.body);
     res.status(200).json(tagsData);
   } catch (err) {
     res.status(500).json(err);
