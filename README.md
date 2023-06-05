@@ -31,10 +31,18 @@ You can start your server by typing npm start at this point.
 
 Use this software as you wish.
 
+Double check the server.js file to see port used. Modify if need be. 
+
+Once you are running the program by typing `npm start` you can access the local host using an app like Insomnia.
+
+Use the api routes provided in code.
+
 
 ## Credits
 
-This software could not have been developed without the initial source code provided by UofT Bootcamp. It also could not have been accomplished without the help of our wonderful instructors Daler and Sachin.
+This software could not have been developed without the initial source code provided by UofT Bootcamp. 
+
+It also could not have been accomplished without the help of our wonderful instructors Daler and Sachin.
 
 ## License
     
