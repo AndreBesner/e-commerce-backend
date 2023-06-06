@@ -29,6 +29,11 @@ You can start your server by typing npm start at this point.
 
 ## Usage
 
+See this video for usage
+
+https://drive.google.com/file/d/1yLRUb79oustmkyMYqzVjC6TreSWmSTNw/view
+
+
 Use this software as you wish.
 
 Double check the server.js file to see port used. Modify if need be. 
