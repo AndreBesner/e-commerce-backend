@@ -39,7 +39,6 @@ router.post("/", async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  tagsData;
 });
 
 // update product tag by id
